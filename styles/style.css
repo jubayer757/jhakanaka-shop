@@ -2,3 +2,50 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+.nav-container{
+    /* border:2px solid red; */
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.nav-container img{
+    width: 80px;
+    object-fit: cover;
+}
+.nav-container p{
+    font-size: 25px;
+}
+.special{
+    color:aquamarine;
+    font-weight: 400px;
+}
+.header-section{
+    max-width: 1250px;
+    /* background-color: red; */
+    margin:0 auto;
+    /* border: 2px solid blue; */
+    display:flex;
+}
+.items-container{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.items-container a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900px;
+    color:white;
+}
+.header{
+    background-color: darkkhaki;
+}
+.items-container .login-button a{
+    padding: 10px 10px;
+    background-color:tomato;
+    border-radius: 5px;
+    color: black;
+}
