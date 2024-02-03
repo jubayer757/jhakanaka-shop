@@ -8,4 +8,19 @@
         margin-left: 50px;
         gap: 20px;
     }
+    .banner-section{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner-text{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .discount{
+        flex-direction: column;
+    }
+    
 }
